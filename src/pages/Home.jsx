@@ -30,67 +30,55 @@ const Home = () => {
 
 
   {/* Section 1 */}
-<div className="container my-5">
-    <div className="row align-items-center my-5">
-    <div className="col-md-6 mb-3 mb-md-0">
-      <img
-        className="img-fluid img-con"
-        src="https://t3.ftcdn.net/jpg/03/30/09/98/360_F_330099838_43eEyvA61UQ6ijDcA3uuQgEjiBihvzJp.jpg"
-        alt="info1"
-      />
-    </div>
-    <div className="col-md-6">
-      <div className="info-content">
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h5 className="quote-text">
-          Lorem ipsum d Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat error rerum nobis perspiciatis eos atque quibusdam veritatis inventore velit. Explicabo id rem ex, maxime ratione quam nesciunt earum temporibus..
-        </h5>
+  <div className="container other-section bg-white">
+        <div className="row">
+          <div className="col-md-6 col-12">
+           <div className='main-img'>
+              <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHk-t6OuJC399GZyY_ywCN_XidBoW8jdzbAg&s" alt="about1" />
+           </div>
+          </div>
+          <div className="col-md-6 col-12 p-5">
+              <h1>MISSION</h1>
+              <br />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti libero quidem neque obcaecati ad distinctio natus aperiam voluptatum ex maiores unde, blanditiis molestiae quo optio? Cumque illum eius magnam facilis minima beatae quo quisquam provident consectetur alias sapiente numquam ex, commodi soluta sint ipsum voluptatum magni tempora assumenda voluptatibus officia? Exercitationem consequuntur odit tempora voluptas explicabo voluptatem eius porro?</p>
+            </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+        <div className="container other-section bg-white">
+        <div className="row">
+       
+          <div className="col-md-6 col-12 order-md-0 order-1 p-5">
+      
+              <h1>VISION</h1>
+              <br />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti sequi ea harum ipsa, eaque sit dolorum ipsam voluptatibus? Ipsa voluptates ut voluptatem, quasi adipisci sunt expedita consectetur in aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro aut accusantium quas sit deleniti? Ducimus magnam eum aut voluptas? </p>
+             
+            
+          </div>
+             <div className="col-md-6 col-12">
+              <div className='main-img'>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHk-t6OuJC399GZyY_ywCN_XidBoW8jdzbAg&s" alt="about1" />
+          </div>
+        </div></div>
+      </div>
+      <div className="container other-section bg-white">
+        <div className="row">
+          <div className="col-md-6 col-12">
 
-  {/* Section 2 - image right on desktop */}
-  <div className="container my-5" >
-  <div className="row align-items-center">
-    <div className="col-md-6 order-md-2 mb-3 mb-md-0">
-      <img
-        className="img-fluid img-con"
-        src="https://t3.ftcdn.net/jpg/03/30/09/98/360_F_330099838_43eEyvA61UQ6ijDcA3uuQgEjiBihvzJp.jpg"
-        alt="info2"
-      />
-    </div>
-    <div className="col-md-6 order-md-1 my-5">
-      <div className="info-content">
-        <h2>About Us</h2>
-        <h5 className="quote-text">
-       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque error sit ullam sapiente aliquid quis quas eligendi unde, harum dolorem explicabo recusandae facilis reprehenderit expedita cum. Itaque impedit nemo magnam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, hic.
-        </h5>
+            <div className='main-img'>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHk-t6OuJC399GZyY_ywCN_XidBoW8jdzbAg&s" alt="about1" />
+          </div>
+          </div>
+          <div className="col-md-6 col-12 p-5">
+           
+              <h1>PRINCIPAL'S MESSAGE</h1>
+              <br />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit reprehenderit est facilis? Deserunt quia consectetur, culpa adipisci quos esse sapiente, laborum iure, distinctio expedita possimus quae mollitia? Iure odio nihil ullam ducimus ex officiis esse, perspiciatis repudiandae! Nulla, cum quae.</p>
+             
+            </div>
+          </div>
+        
       </div>
-    </div>
-  </div>
-  </div>
-
-  {/* Section 3 */}
-  <div className="container my-5">
-  <div className="row align-items-center my-4">
-    <div className="col-md-6 mb-3 mb-md-0">
-      <img
-        className="img-fluid img-con"
-        src="https://t3.ftcdn.net/jpg/03/30/09/98/360_F_330099838_43eEyvA61UQ6ijDcA3uuQgEjiBihvzJp.jpg"
-        alt="info3"
-      />
-    </div>
-    <div className="col-md-6">
-      <div className="info-content">
-        <h2>Lorem ipsum dolor sit amet consectetur,</h2>
-        <h5 className="quote-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius voluptas asperiores laborum quam nulla animi, enim delectus, corporis dolores sint, veritatis ipsam nobis ab. Ipsa quibusdam libero porro alias. At quo aspernatur totam necessitatibus nemo quos eos consequuntur ullam?
-        </h5>
-      </div>
-    </div>
-  </div>
-</div>
 
 
       <div className="container home-img2 py-5">
