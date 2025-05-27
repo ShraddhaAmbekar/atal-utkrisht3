@@ -1,6 +1,5 @@
-
 .row>.hero {
-    padding-left:0px !important;
+  padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
@@ -8,7 +7,6 @@
 .img-container img {
   width: 100%;
   height: auto;
-    padding: 30px;
 }
 
 .main-img img {
@@ -66,7 +64,6 @@
 .view-pdf-link {
   padding: 6px 12px;
   background-color: #09246c;
-  ;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -105,9 +102,8 @@
     margin-bottom: 10px;
   }
 
-  .other-content{
-
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
+  .other-content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }

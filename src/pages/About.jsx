@@ -20,7 +20,7 @@ const About = () => {
         </div>
       </div>
 
-      <h1 className='text-center my-5'> Our Mission and Vision</h1>
+      <h3 className='text-center my-5'> Our Mission and Vision</h3>
       <div className="container-fluid my-5">
         <div className="row other-section">
           <div className="col-md-6 col-12">
@@ -29,7 +29,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-6 col-12">
-            <h1>MISSION</h1>
+            <h3>MISSION</h3>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti libero quidem neque obcaecati ad distinctio natus aperiam voluptatum ex maiores unde, blanditiis molestiae quo optio? Cumque illum eius magnam facilis minima beatae quo quisquam provident consectetur alias sapiente numquam ex, commodi soluta sint ipsum voluptatum magni tempora assumenda voluptatibus officia? Exercitationem consequuntur odit tempora voluptas explicabo voluptatem eius porro?</p>
           </div>
@@ -38,7 +38,7 @@ const About = () => {
       <div className="container-fluid other-section my-5">
         <div className="row">
           <div className="col-md-6 col-12 order-md-0 order-1">
-            <h1>VISION</h1>
+            <h3>VISION</h3>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti sequi ea harum ipsa, eaque sit dolorum ipsam voluptatibus? Ipsa voluptates ut voluptatem, quasi adipisci sunt expedita consectetur in aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro aut accusantium quas sit deleniti? Ducimus magnam eum aut voluptas? </p>
 
@@ -58,7 +58,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-6 col-12">
-            <h1>PRINCIPAL'S MESSAGE</h1>
+            <h3>PRINCIPAL'S MESSAGE</h3>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit reprehenderit est facilis? Deserunt quia consectetur, culpa adipisci quos esse sapiente, laborum iure, distinctio expedita possimus quae mollitia? Iure odio nihil ullam ducimus ex officiis esse, perspiciatis repudiandae! Nulla, cum quae.</p>
           </div>

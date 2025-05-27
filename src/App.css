@@ -2,9 +2,34 @@
   color: #09246c;
 
 }
+body {
+  margin-top: 200px;
+font-family: sans-serif !important;
+}
+
+h3{
+  
+  font-size: 22px !important;
+}
+h1{
+  font-size: 40px !important; 
+  line-height: 1.2em
+}
+p{
+
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1050; 
+}
 
 .top {
   background-color: #09246c;
+
 }
 
 .nav-link {

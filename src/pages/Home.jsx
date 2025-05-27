@@ -12,7 +12,7 @@ const Home = () => {
           </div>
           <div className="col-md-6 col-12 hero hero-content text-center">
             <div>
-              <h1><strong>Welcome to</strong> <br /> Atal Utkrist Government Inter College Genwla </h1>
+              <h1><strong>Welcome to</strong> <br/> Atal Utkrist Government Inter College Genwla </h1>
               <br />
               <p>Nurturing Excellence and Integrity in Every Young Mind, Inside and Beyond the Classroom.</p>
               <button className="nevi">Contact Us</button>
@@ -38,7 +38,7 @@ const Home = () => {
           </div>
 
           <div className="col-md-6 col-12">
-            <h1>Himalayan Heart. National Standards. Future-Ready Minds.</h1>
+            <h3>Himalayan Heart. National Standards. Future-Ready Minds.</h3>
             <br />
             <p>
 
@@ -50,7 +50,7 @@ const Home = () => {
       <div className="container other-section bg-white">
         <div className="row">
           <div className="col-md-6 col-12 order-md-0 order-1">
-            <h1>About Us</h1>
+            <h3>About Us</h3>
             <br />
             <p>Established in 1958 and nestled in the serene hills of Uttarkashi, Atal Utkrisht Government Inter College, Genwla stands as a proud symbol of rural educational excellence. From its roots as a high school to its upgrade as an Intermediate College in 1976, the institution has consistently empowered generations with knowledge, values, and vision.
 
@@ -69,7 +69,7 @@ const Home = () => {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuSDkXcp-MGFLpkTE6Mcu0hk8U-ln4oTTfhA&s" alt="about1" />
           </div>
           <div className="col-md-6 col-12 ">
-            <h1>Why AUGIC Genwla Stands Out</h1>
+            <h3>Why AUGIC Genwla Stands Out</h3>
             <br />
             <p>
               At Atal Utkrisht Government Inter College, Genwla, we blend tradition with innovation to shape bright futures in the heart of rural Uttarakhand. Set against the scenic backdrop of Uttarkashi, our institution is a space where values, vision, and vibrant learning come together.

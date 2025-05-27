@@ -8,15 +8,16 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleNavLinkClick = () => {
-    setMenuOpen(false); // close the menu when a nav item is clicked
+    setMenuOpen(false); 
   };
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen); // toggle open/close
+    setMenuOpen(!menuOpen); 
   };
 
   return (
-    <div>
+    
+        <div className="fixed-header">
       <div className="text-center py-2 small top"></div>
 
       <nav className="navbar navbar-expand-lg bg-white py-3 border-bottom page-size  " >

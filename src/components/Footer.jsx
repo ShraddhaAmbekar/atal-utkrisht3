@@ -5,7 +5,7 @@ import '../pages/Other.css'
 
 const Footer = () => {
   return (
-    <div className='page-size'>
+    <div className='page-size '>
       <div className="contact-footer">
         <div className="container">
           <div className="row">
