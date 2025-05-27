@@ -1,6 +1,6 @@
 .page-size {
   margin: 50px 250px;
-  padding-top: 150px;
+  /* padding-top: 150px; */
 }
 
 .hero {
@@ -70,7 +70,7 @@
 /* Responsive Fixes */
 @media (max-width: 1400px) {
   .page-size {
-    margin: 10px 40px;
+    margin: 10px 30px;
   }
 }
 
