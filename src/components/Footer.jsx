@@ -1,67 +1,73 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Footer.css';
+import '../pages/Other.css'
 
 const Footer = () => {
   return (
-    <footer className="footer-dark">
-      <div className="container">
-        <div className="row">
+    <div className='page-size'>
+      <div className="contact-footer">
+        <div className="container">
+          <div className="row">
+            {/* Left Column */}
+            <div className="col-md-6 left-section">
+              <div className="footer-title">Atal Utkrisht</div>
+              <p className="mt-3 text-white">Art Center</p>
+              <p className='text-white'>
+                500 Terry Francine Street,<br />San Francisco, CA 94158
+              </p>
+              <p className='text-white'>123-456-7890 | info@mysite.com</p>
+              <div className="d-flex footer-icons mt-3 text-white">
+                <i className="bi bi-facebook"></i>
+                <i className="bi bi-instagram"></i>
+                <i className="bi bi-pinterest"></i>
+              </div>
+            </div>
 
-          {/* Column 1: School Info + About Links */}
-          <div className="col-md-3 mb-4 px-3 text-white">
-            <h3>Atal Utkrist </h3>          
+            {/* Right Column */}
+            <div className="col-md-6">
+              <h4 className="text-white">Contact Us</h4>
+              <form className="footer-form">
+                <div className="row mb-4">
+                  <div className="col">
+                    <label className="form-label">First Name *</label>
+                    <input type="text" className="form-control" placeholder="First Name" required />
+                  </div>
+                  <div className="col">
+                    <label className="form-label">Last Name *</label>
+                    <input type="text" className="form-control" placeholder="Last Name" required />
+                  </div>
+                </div>
+
+                <div className="row">
+
+
+                  <div className="col">
+                    <label className="form-label">Email *</label>
+                    <input type="email" className="form-control" placeholder="Email" required />
+                  </div>
+                  <div className="col">
+                    <label className="form-label">Phone</label>
+                    <input type="tel" className="form-control" placeholder="Phone" />
+                  </div>
+                </div>
+
+                <div className="mb-3">
+                  <label className="form-label">Leave us a message...</label>
+                  <textarea className="form-control" rows="4"></textarea>
+                </div>
+
+                <button type="submit" className="btn footer-submit-btn">Submit</button>
+              </form>
+            </div>
           </div>
-
-          {/* Column 2: Facilities */}
-          <div className="col-md-3 mb-4 ">
-            <h4>Other Navigation</h4>
-           <div className=''>
-             <ul>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/facilities">Facilities</Link></li>
-              <li><Link to="/gallery">Gallery</Link></li>
-               <li><Link to="/documents">Affliation and Credentials</Link></li>
-            </ul>
-           </div>
-          
-          </div>
-
-          <div className="col-md-3 mb-4 ">
-            <h4>Stay Connected</h4>
-           <div className=''>
-             <ul>
-              <li><Link to="https://www.facebook.com">Facebook</Link></li>
-              <li><Link to="https://x.com">Twitter</Link></li>
-              <li><Link to="https://www.instagram.com">Instagram</Link></li>
-               <li><Link to="https://www.youtube.com">Youtube</Link></li>
-            </ul>
-           </div>
-          
-          </div>
-
-    
-      
-
-          {/* Column 4: Contact Details */}
-          <div className="col-md-3 mb-4">
-            <h4>Contact Us</h4>
-            <p>Atal Utkrishti</p>
-            <p>Pin code - </p>
-            <p>Email:</p>
-            <p>Phone: </p>
-         
-          </div>
-
-        </div>
-
-        <div className="footer-bottom-text">
-          <p className="text-center">
-            &copy; 2025 Atal Utkrist  All rights reserved.
-          </p>
         </div>
       </div>
-    </footer>
+
+      <p className="footer-bottom">
+        © 2025 Atal Utkrist Government Inter College Genwla
+      </p>
+    </div>
   );
 };
 

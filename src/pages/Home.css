@@ -1,16 +1,19 @@
-.hero {
-  height: 75vh;
-  max-width: 100vw;
-  background-color: pink;
+.page-size {
+  margin: 50px 250px;
 }
 
-/* Image background styling */
+.hero {
+  height: 500px;
+  max-width: 100vw;
+  background: rgba(253, 227, 229, 1);
+
+}
+
 .hero-img {
   width: 100%;
   height: 100%;
 }
 
-/* Content styling */
 .hero-content {
   display: flex;
   color: rgb(9, 36, 108);
@@ -25,18 +28,16 @@
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
-
 
 .quote {
   text-align: center;
-  background-color: rgb(40, 167, 69, 0.3);
+  background-color: rgb(216, 245, 225);
   color: rgb(9, 36, 108);
   max-width: 80%;
-  margin: 100px 0;
+  margin: 50px 0;
   padding: 80px 0;
-  font-size: 20px
 }
 
 .nevi {
@@ -47,29 +48,30 @@
 }
 
 .info-content {
-  font-size: 3rem
+  font-size: 2rem
 }
 
 .img-con {
   width: 100%;
   height: 100%;
-
 }
 
 .home-img2 {
-  width:100%;
+  width: 100%;
   height: auto
 }
 
 .home-img2 img {
   width: 100%;
-  height: 100%
+  height: auto
 }
 
-
 /* Responsive Fixes */
-
-
+@media (max-width: 1400px) {
+  .page-size {
+    margin: 10px 120px;
+  }
+}
 
 @media (max-width: 1200px) {
   .info-content {
@@ -79,6 +81,10 @@
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
+  .page-size {
+    margin: 0px 0px;
+  }
+
   .info-content {
     min-height: fit-content;
     border-bottom: 10px solid white;
@@ -87,6 +93,8 @@
 
   .quote {
     max-width: 100%;
+    margin: 50px 0;
+    padding: 40px 0;
   }
 
   .hero {
@@ -95,7 +103,7 @@
   }
 
   .hero-img {
-    height: 300px;
+    height: auto;
   }
 
   .hero-content {
@@ -103,17 +111,11 @@
   }
 
   .hero-content h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .hero-content p {
     font-size: 1rem;
   }
 
-
-
-  .home-img2 img {
-     width: 100%;
-  height: 100%
-  }
 }

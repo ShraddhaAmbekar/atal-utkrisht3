@@ -1,20 +1,21 @@
-*{
- color: #09246c;
+* {
+  color: #09246c;
 
 }
- .top{
-  background-color:#09246c;
- }
 
-.nav-link{
+.top {
+  background-color: #09246c;
+}
+
+.nav-link {
   color: #09246c !important;
-    font-size: 1.2rem !important;
-    font-weight: 500;
-
 }
 
 .nav-link.active {
   color: #09246c !important;
   font-weight: bold;
-  
 }
+ .logo{
+  width: 120px;
+ }
+

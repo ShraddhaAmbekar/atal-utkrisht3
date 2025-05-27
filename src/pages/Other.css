@@ -1,21 +1,113 @@
-.main-img{
-  width: 100%;
-  min-height:fit-content ;
-  height: 400px;
+
+.row>.hero {
+    padding-left:0px !important;
+  padding-right: 0px !important;
 }
 
-.main-img img{
-  object-fit: cover;
+
+.img-container img {
+  width: 100%;
+  height: auto;
+    padding: 30px;
+}
+
+.main-img img {
   width: 100%;
   height: 100%;
+  max-height: 400px;
+}
+
+.other-section {
+  min-height: 400px;
+  height: fit-content;
+  max-width: 100vw;
+  background: rgba(168, 182, 218, 0.2);
+  font-size: 1rem;
+}
+
+.title {
+  max-width: 100%;
+  background-color: rgb(216, 245, 225);
+  padding: 80px 0;
+  margin-bottom: 50px;
 }
 
 
-.other-section{
-   min-height: 400px;
-   height: fit-content;
-  max-width: 100vw;
-  background-color: rgb(198, 213, 216);
-  font-size: 1.4rem;
-  margin: 5rem;
+.pdf-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.pdf-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.pdf-list li:hover {
+  background-color: #eef5ff;
+  border-color: #aacbff;
+}
+
+.pdf-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.view-pdf-link {
+  padding: 6px 12px;
+  background-color: #09246c;
+  ;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  min-width: 100px;
+}
+
+.view-pdf-link:hover {
+  background-color: #09246c;
+}
+
+@media (max-width: 768px) {
+  .other-section {
+    margin: 1rem;
+    font-size: 1rem;
+    width: fit-content
+  }
+
+  .img-container {
+    padding: 0.1rem;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    padding: 0.1rem;
+  }
+
+  .main-img img {
+    max-height: auto;
+  }
+
+  .title {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .other-content{
+
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
 }

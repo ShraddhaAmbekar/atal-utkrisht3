@@ -7,6 +7,7 @@ import Facilities from './pages/Facilities';
 import Documents from './pages/Documents';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';

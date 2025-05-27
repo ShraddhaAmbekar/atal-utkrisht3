@@ -2,11 +2,12 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-      <div className="container-fluid">
+    <div className="page-size">
+        <div className="container-fluid">
       <div className="row">
         {/* Image Section */}
         <div className="col-md-6 col-12 hero ">
-          <img className='hero-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHk-t6OuJC399GZyY_ywCN_XidBoW8jdzbAg&s" alt="about1" />
+          <img className='hero-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzC1iA5AKpp5dYzGpKlGqM4f2CSEwolIRhA&s" alt="about1" />
         </div>
 
         {/* Content Section */}
@@ -18,6 +19,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
 
   )

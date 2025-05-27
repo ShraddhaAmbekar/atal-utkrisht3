@@ -16,12 +16,13 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <div>
       <div className="text-center py-2 small top"></div>
 
-      <nav className="navbar navbar-expand-lg bg-white py-3 border-bottom">
+      <nav className="navbar navbar-expand-lg bg-white py-3 border-bottom page-size  " >
         <div className="container">
-
+<NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
+<img src="/assets/images/logo.png" className='logo' alt=""/></NavLink>
           <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
             <span className="fw-bold fs-4" style={{ color: '#09246c' }}>Atal Utkrisht</span>
             <small className="text-muted">Art Center</small>
@@ -60,7 +61,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
