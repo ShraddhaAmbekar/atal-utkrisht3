@@ -6,7 +6,7 @@
 
 .img-container img {
   width: 100%;
-  height: auto;
+  height: 80%;
 }
 
 .main-img img {
@@ -22,6 +22,7 @@
   background: rgba(168, 182, 218, 0.2);
   font-size: 1rem;
 }
+
 
 .title {
   max-width: 100%;
@@ -63,8 +64,7 @@
 
 .view-pdf-link {
   padding: 6px 12px;
-  background-color: #09246c;
-  color: white;
+  color: #09246c;
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -73,7 +73,7 @@
 }
 
 .view-pdf-link:hover {
-  background-color: #09246c;
+  color: #020c25;
 }
 
 @media (max-width: 768px) {

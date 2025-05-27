@@ -70,7 +70,7 @@ const Documents = () => {
       <div className="text1 title text-center">
         <h1>Affiliations and Credentials</h1>
       </div>
-      <div className="text-center">
+      <div>
         <ul className="pdf-list">
           {pdfs.map((pdf, index) => (
             <li key={index}>

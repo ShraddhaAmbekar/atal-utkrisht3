@@ -7,46 +7,45 @@ const About = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 col-12 hero">
-            <img className='hero-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzC1iA5AKpp5dYzGpKlGqM4f2CSEwolIRhA&s" alt="about1" />
+            <img className='hero-img' src="/assets/images/about.jpg" alt="about1" />
           </div>
           <div className="col-md-6 col-12 hero hero-content text-center">
             <div>
-              <h1>ABOUT US</h1>
-              <br />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <h1 className=''>ABOUT US</h1>
+              <p>we combine expert teaching with value-based learning to shape confident, ethical, and future-ready students , about us headline</p>
 
             </div>
           </div>
         </div>
       </div>
 
-      <h3 className='text-center my-5'> Our Mission and Vision</h3>
+      <h1 className='text-center my-5'> Our Mission and Vision</h1>
       <div className="container-fluid my-5">
         <div className="row other-section">
           <div className="col-md-6 col-12">
             <div className='main-img'>
-              <img src="https://placehold.jp/183a37/ffffff/600x500.png" alt="about1" />
+              <img src="/assets/images/mission.jpg" alt="about1" />
             </div>
           </div>
           <div className="col-md-6 col-12">
-            <h3>MISSION</h3>
-            <br />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti libero quidem neque obcaecati ad distinctio natus aperiam voluptatum ex maiores unde, blanditiis molestiae quo optio? Cumque illum eius magnam facilis minima beatae quo quisquam provident consectetur alias sapiente numquam ex, commodi soluta sint ipsum voluptatum magni tempora assumenda voluptatibus officia? Exercitationem consequuntur odit tempora voluptas explicabo voluptatem eius porro?</p>
+            <h3>Mission</h3>
+       
+            <p>our mission is to provide inclusive, value-based education that empowers students to thrive academically, socially, and ethically. We are committed to nurturing well-rounded individuals by integrating modern learning in science, arts, and technology with a strong foundation in cultural pride and leadership. Guided by experienced educators, we create a supportive environment that encourages critical thinking, innovation, and community spirit. Situated in the remote hills of Uttarkashi, we strive to bridge rural-urban educational gaps and prepare confident, compassionate youth ready to lead and contribute meaningfully to a changing world.</p>
           </div>
         </div>
       </div>
       <div className="container-fluid other-section my-5">
         <div className="row">
           <div className="col-md-6 col-12 order-md-0 order-1">
-            <h3>VISION</h3>
-            <br />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti sequi ea harum ipsa, eaque sit dolorum ipsam voluptatibus? Ipsa voluptates ut voluptatem, quasi adipisci sunt expedita consectetur in aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro aut accusantium quas sit deleniti? Ducimus magnam eum aut voluptas? </p>
+            <h3>Vision</h3>
+    
+            <p>We envision being a beacon of transformative education in the Himalayas—empowering students to lead with integrity, learn with purpose, and honor their roots. We aim to nurture future-ready minds who thrive through knowledge, uphold values, and contribute meaningfully to their communities, bridging tradition with innovation to shape tomorrow’s changemakers. </p>
 
 
           </div>
           <div className="col-md-6 col-12">
             <div className='main-img'>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuSDkXcp-MGFLpkTE6Mcu0hk8U-ln4oTTfhA&s" alt="about1" />
+              <img src="/assets/images/vision.jpg" alt="about1" />
             </div>
           </div></div>
       </div>
@@ -54,16 +53,18 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 col-12">
             <div className='main-img'>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuSDkXcp-MGFLpkTE6Mcu0hk8U-ln4oTTfhA&s" alt="about1" />
+              <img src="/assets/images/principal.jpg" alt="about1" />
             </div>
           </div>
           <div className="col-md-6 col-12">
-            <h3>PRINCIPAL'S MESSAGE</h3>
-            <br />
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit reprehenderit est facilis? Deserunt quia consectetur, culpa adipisci quos esse sapiente, laborum iure, distinctio expedita possimus quae mollitia? Iure odio nihil ullam ducimus ex officiis esse, perspiciatis repudiandae! Nulla, cum quae.</p>
+           <h3>Principal's Message</h3>
+     
+            <p>At AUGIC Genwla, we believe every child holds a universe of potential. Our mission is to ignite curiosity, nurture values, and build confident, compassionate minds. In the lap of the Himalayas, we blend tradition with innovation to shape not just scholars—but thoughtful citizens. With teamwork, dedication, and a vision rooted in purpose, we’re preparing our students to rise, lead, and make a lasting impact on the world.</p>
           </div>
         </div>
       </div>
+
+     
     </div>
   )
 }

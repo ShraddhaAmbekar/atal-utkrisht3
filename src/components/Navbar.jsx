@@ -19,13 +19,13 @@ const Navbar = () => {
     <div>
       <div className="text-center py-2 small top"></div>
 
-      <nav className="navbar navbar-expand-lg bg-white py-3 border-bottom page-size  " >
-        <div className="container">
+      <nav className="navbar navbar-expand-lg bg-white border-bottom page-size" >
+        <div className="container-fluid">
           <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
             <img src="/assets/images/logo.png" className='logo' alt="" /></NavLink>
           <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
             <span className="fw-bold fs-4" style={{ color: '#09246c' }}>Atal Utkrisht</span>
-            <small className="text-muted">Art Center</small>
+            <small className="text-muted">Government Inter-College Genwla</small>
           </NavLink>
 
           <button

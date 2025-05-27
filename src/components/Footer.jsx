@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Left Column */}
             <div className="col-md-6 left-section">
               <div className="footer-title">Atal Utkrisht</div>
-              <p className="mt-3 text-white">Art Center</p>
+              <p className="mt-3 text-white">Government Inter-College Genwla</p>
               <p className='text-white'>
                 500 Terry Francine Street,<br />San Francisco, CA 94158
               </p>
