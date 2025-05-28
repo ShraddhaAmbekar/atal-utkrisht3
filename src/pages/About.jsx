@@ -1,7 +1,33 @@
 import React from 'react';
 import './Other.css'
+import { FaUserFriends, FaChalkboardTeacher, FaLaptop } from "react-icons/fa";
 
 const About = () => {
+
+  const statsData = [
+  {
+    icon: <FaUserFriends size={40} />,
+    number: "275",
+    label: "Student Strength",
+    bgColor: "rgb(216, 245, 225)",
+    color:"#000000"
+  },
+  {
+    icon: <FaChalkboardTeacher size={40} />,
+    number: "22",
+    label: "Teaching Staff",
+    bgColor: "rgb(206, 231, 234)",
+    color:"#000000"
+  },
+  {
+    icon: <FaLaptop size={40} />,
+    number: "7",
+    label: "Support Staff",
+    bgColor:  "rgb(216, 245, 225)",
+    color:"#000000"
+  },
+
+];
   return (
     <div className='page-size'>
       <div className="container-fluid">
@@ -59,11 +85,24 @@ const About = () => {
           <div className="col-md-6 col-12">
            <h3>Principal's Message</h3>
      
-            <p>At AUGIC Genwla, we believe every child holds a universe of potential. Our mission is to ignite curiosity, nurture values, and build confident, compassionate minds. In the lap of the Himalayas, we blend tradition with innovation to shape not just scholars—but thoughtful citizens. With teamwork, dedication, and a vision rooted in purpose, we’re preparing our students to rise, lead, and make a lasting impact on the world.</p>
+            <p>At AUGIC Geonla, we believe every child holds a universe of potential. Our mission is to ignite curiosity, nurture values, and build confident, compassionate minds. In the lap of the Himalayas, we blend tradition with innovation to shape not just scholars—but thoughtful citizens. With teamwork, dedication, and a vision rooted in purpose, we’re preparing our students to rise, lead, and make a lasting impact on the world.</p>
           </div>
         </div>
       </div>
-
+    <div className="stats-section">
+      {statsData.map((item, index) => (
+        <div
+          key={index}
+          className="stat-box"
+          style={{ backgroundColor: item.bgColor,color: item.color}}
+        >
+          <div className="icon">{item.icon}</div>
+          {item.number && <h2  style={{color: item.color}}>{item.number}</h2>}
+          <p className='text-center'>{item.label}</p>
+          
+        </div>
+      ))}
+    </div>
      
     </div>
   )

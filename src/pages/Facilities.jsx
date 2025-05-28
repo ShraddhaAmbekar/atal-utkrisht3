@@ -55,7 +55,7 @@ const Facilities = () => {
           <div className="col-md-6 col-12  order-md-0 order-1  p-5">
             <h3>Classrooms</h3>
         
-            <p>Classrooms at AUGIC Genwla are more than just learning spaces — they are hubs of innovation and interaction. Equipped with smart technology and designed for engagement, each classroom empowers students to think critically, ask questions, and participate actively in their education.</p>
+            <p>Classrooms at AUGIC Geonla are more than just learning spaces — they are hubs of innovation and interaction. Equipped with smart technology and designed for engagement, each classroom empowers students to think critically, ask questions, and participate actively in their education.</p>
           </div>
 
            <div className="col-md-6 col-12">

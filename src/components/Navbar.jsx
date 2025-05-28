@@ -25,7 +25,7 @@ const Navbar = () => {
             <img src="/assets/images/logo.png" className='logo' alt="" /></NavLink>
           <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
             <span className="fw-bold fs-4" style={{ color: '#09246c' }}>Atal Utkrisht</span>
-            <small className="text-muted">Government Inter-College Genwla</small>
+            <small className="text-muted">Government Inter-College Geonla</small>
           </NavLink>
 
           <button

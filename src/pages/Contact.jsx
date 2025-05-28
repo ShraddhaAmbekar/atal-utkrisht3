@@ -7,7 +7,7 @@ const Contact = () => {
   <div className="row">
     {/* Image Section */}
     <div className="col-md-6 col-12 hero">
-      <img className='hero-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzC1iA5AKpp5dYzGpKlGqM4f2CSEwolIRhA&s" alt="about1" />
+      <img className='hero-img' src="/assets/images/contact.jpg" alt="about1" />
     </div>
 
     {/* Content Section */}

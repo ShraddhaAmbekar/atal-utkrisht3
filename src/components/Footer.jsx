@@ -12,11 +12,17 @@ const Footer = () => {
             {/* Left Column */}
             <div className="col-md-6 left-section">
               <div className="footer-title">Atal Utkrisht</div>
-              <p className="mt-3 text-white">Government Inter-College Genwla</p>
+              <p className="mt-3 text-white">Government Inter-College Geonla</p>
               <p className='text-white'>
-                500 Terry Francine Street,<br />San Francisco, CA 94158
+                Address : Geonla<br/>
+Post Office : Brahmkhal
+Block :Dunda <br/>
+District :uttarkashi <br/>
+email- : 83134@cbseshiksha.in<br/>
+PIN code : 249152
+
               </p>
-              <p className='text-white'>123-456-7890 | info@mysite.com</p>
+    
               <div className="d-flex footer-icons mt-3 text-white">
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-instagram"></i>
@@ -65,7 +71,7 @@ const Footer = () => {
       </div>
 
       <p className="footer-bottom">
-        © 2025 Atal Utkrist Government Inter College Genwla
+        © 2025 Atal Utkrist Government Inter College Geonla
       </p>
     </div>
   );
