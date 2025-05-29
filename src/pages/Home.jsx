@@ -39,7 +39,6 @@ const Home = () => {
             <h3>Himalayan Heart. National Standards. Future-Ready Minds.</h3>
       
             <p>
-
             Atal Utkrisht Government Inter College, Geonla (Block Dunda, Uttarkashi) isn’t just a school — it’s a launchpad for dreams in the Himalayan hills.
             With CBSE-affiliated, English-medium education, smart classrooms, modern labs, and a focus on sports, arts, and digital learning, we empower rural youth to think big and lead boldly. Inspired by Shri Atal Bihari Vajpayee’s vision, we blend tradition with transformation — shaping confident, value-driven leaders for tomorrow’s Uttarakhand.</p>
           </div>
@@ -69,8 +68,7 @@ const Home = () => {
             <img src="/assets/images/img3.jpg" alt="about1" />
           </div>
           <div className="col-md-6 col-12 ">
-            <h3>Why AUGIC Geonla Stands Out</h3>
-            
+            <h3>Why AUGIC Geonla Stands Out</h3>    
             <p>
             At Atal Utkrisht Government Inter College, Geonla, we blend tradition with innovation to shape bright futures in the heart of rural Uttarakhand. Set against the scenic backdrop of Uttarkashi, our institution is a space where values, vision, and vibrant learning come together.
 
@@ -80,7 +78,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       <div className="container home-img2 mb-5">
         <img src="/assets/images/hero-img3.jpg" alt="home-page-2" />
