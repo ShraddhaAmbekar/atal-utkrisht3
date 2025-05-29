@@ -15,7 +15,6 @@ const Contact = () => {
       <div>
         <h1>Contact Us</h1>
         <br />
-        <p>Concise, friendly, and encourage visitors to reach out</p>
        
       </div>
     </div>
