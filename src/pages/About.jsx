@@ -84,7 +84,6 @@ const About = () => {
           </div>
           <div className="col-md-6 col-12 p-4 ">
            <h3>Principal's Message</h3>
-     
             <p>At AUGIC Geonla, we believe every child holds a universe of potential. Our mission is to ignite curiosity, nurture values, and build confident, compassionate minds. In the lap of the Himalayas, we blend tradition with innovation to shape not just scholars—but thoughtful citizens. With teamwork, dedication, and a vision rooted in purpose, we’re preparing our students to rise, lead, and make a lasting impact on the world.</p>
             <br />
             <p className='text-end'>-Mr. Upendra Singh Rawat</p>
