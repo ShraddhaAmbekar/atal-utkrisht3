@@ -15,12 +15,12 @@ const Documents = () => {
 
     {
       title: "List of School Management Committee (SMC)",
-      url: "/assets/pdfs/ListOfSMCMembers.pdf",
+      url: "/assets/pdfs/ListofSMCMembers.pdf",
     },
 
     {
       title: "List of Parents Teachers Association (PTA) Members",
-      url: "/assets/pdfs/ListOfPTAMembers.pdf",
+      url: "/assets/pdfs/ListofPTAMembers.pdf",
     },
 
     {
@@ -40,6 +40,10 @@ const Documents = () => {
     {
       title: "Copy of Self Certification",
       url: "/assets/pdfs/selfcertification.pdf",
+    },
+    {
+      title: "Copy of Recognition Certification",
+      url: "/assets/pdfs/copiesofrecognitioncertificate.pdf",
     },
     {
       title: "Certificate of Land",
