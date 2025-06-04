@@ -63,7 +63,7 @@ const Documents = () => {
     },
     {
       title: "Mandatory Disclosure Details",
-      url: "/assets/pdfs/MandatoryDisclosureDetails.pdf",
+      url: "/assets/pdfs/MandatoryDisclosureDetails_SARAS6.0.pdf",
     },
   ];
 
